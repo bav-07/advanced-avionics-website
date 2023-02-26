@@ -2,6 +2,33 @@
   text-align: center;
 }
 
+/* underline animation */
+.underline {
+  text-decoration: none;
+  position: relative;
+}
+
+.underline:after {
+  position: absolute;
+  content: '';
+  height: 1.5px;
+  bottom: -4px;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  width: 0%;
+  transition: 0.3s ease;
+  background-color: #3294e2;
+
+
+}
+
+.underline:hover:after {
+  width: 100%;
+  transition: 0.3s ease;
+  background-color: #3294e2;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
