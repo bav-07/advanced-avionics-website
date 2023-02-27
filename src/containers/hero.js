@@ -96,7 +96,7 @@ export function HeroImageBackground() {
 
   return (
     <div className={`${classes.wrapper} animate-background`}>
-      <Overlay color="#000" opacity={0.6} zIndex={1} />
+      <Overlay color="#000" opacity={0.7} zIndex={1} />
 
       <div className={classes.inner}>
         <Title className={classes.title}>
@@ -107,8 +107,8 @@ export function HeroImageBackground() {
         </Title>
 
         <Container size={640}>
-          <Text size="lg" className={classes.description}>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum blanditiis deserunt iusto, provident mollitia repudiandae. Dolorem impedit minima atque minus!
+          <Text size="lg" className={` ${classes.description}`}>
+            <p className='shadow-black drop-shadow-md md:text-2xl'>We are a <span className='font-bold text-[#3294e2]'>world-class aviation consultancy</span>, providing avionics services to hundreds of clients, around the world. </p>
           </Text>
         </Container>
 
