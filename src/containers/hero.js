@@ -10,8 +10,8 @@ const useStyles = createStyles((theme) => ({
     backgroundPosition: 'center',
 
     '@media (max-width: 520px)': {
-      paddingTop: 80,
-      paddingBottom: 50,
+    //   paddingTop: 80,
+    //   paddingBottom: 50,
     },
   },
 
