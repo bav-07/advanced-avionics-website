@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/advanced-avionics-website/static/css/main.a60b0385.css",
+    "main.js": "/advanced-avionics-website/static/js/main.c7f7018c.js",
+    "static/js/787.acb63b5a.chunk.js": "/advanced-avionics-website/static/js/787.acb63b5a.chunk.js",
+    "static/media/logo.png": "/advanced-avionics-website/static/media/logo.4b23a8e9ced381b3ef71.png",
+    "index.html": "/advanced-avionics-website/index.html",
+    "main.a60b0385.css.map": "/advanced-avionics-website/static/css/main.a60b0385.css.map",
+    "main.c7f7018c.js.map": "/advanced-avionics-website/static/js/main.c7f7018c.js.map",
+    "787.acb63b5a.chunk.js.map": "/advanced-avionics-website/static/js/787.acb63b5a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a60b0385.css",
+    "static/js/main.c7f7018c.js"
+  ]
+}
