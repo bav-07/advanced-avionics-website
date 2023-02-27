@@ -113,7 +113,7 @@ export function HeroImageBackground() {
         </Container>
 
         <div className={classes.controls}>
-          <Link to="/contact" >
+          <Link to="/advanced-avionics-website/contact" >
             <Button className={`${cx(classes.control, classes.secondaryControl)} mx-auto w-fit bg-[#3294e2]`} size="lg">
                 Get in Touch
             </Button>
